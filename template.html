@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Records.SRB2.org</title>
+<script type="text/javascript">
+var _cf=false;function convert_fonts(){if(_cf)return;_cf=true;var cl={32:'sp',33:'ex',39:'ap',45:'hy',46:'pe',48:'0',49:'1',50:'2',51:'3',52:'4',53:'5',54:'6',55:'7',56:'8',57:'9',58:'co',65:'a',66:'b',67:'c',68:'d',69:'e',70:'f',71:'g',72:'h',73:'i',74:'j',75:'k',76:'l',77:'m',78:'n',79:'o',80:'p',81:'q',82:'r',83:'s',84:'t',85:'u',86:'v',87:'w',88:'x',89:'y',90:'z',95:'ul'};var vl={'z':'ac-zone','n':'ac-num','a':'ac-std','t':'ac-tiny'};for(var d in vl){var y=document.getElementsByClassName(vl[d]);for(var i=0;i<y.length;++i){var z=y.item(i);z.title=z.textContent;var s=z.textContent.toUpperCase();var r="";for(var x=0;x<s.length;++x){var q=cl[s.charCodeAt(x)];r+="<div style=\"display:inline-block;overflow:hidden;\" class=\""+d+"_"+q+"\"><img src=\"/f/i.png\" style=\"width:500px;height:100px;\"/></div>";}z.innerHTML=r;}}}function set_oldview(){var a=document.getElementById("oldview");var c=document.cookie.replace(/(?:(?:^|.*;\s*)srb2rec-show-old\s*\=\s*([^;]*).*$)|^.*$/,"$1");a.disabled=false;a.checked=(c!="false");}function toggle_oldview(){if(document.getElementById("oldview").checked)document.cookie="srb2rec-show-old=true";else document.cookie="srb2rec-show-old=false";location.reload();}
+</script>
+<link rel="stylesheet" href="/f/dta.css"/>
+<link rel="stylesheet" href="/style.css"/>
+</head>
+<body onload="convert_fonts(); set_oldview();" style="min-width:1100px;position:relative;">
+<img src="/f/i.png" style="display:none;width:0px;height:0px;"/>
+<!-- Content container -->
+<div style="width:100%;height:100%;">
+
+
+
+	<!-- Header (static position) -->
+	<div class="header-div" style="min-width:1100px;">
+		<div style="text-align:center; position:relative; top:30px; height:90px; vertical-align:bottom;">
+			<img src="/images/run_sonic.png" alt="-"/>
+			<img src="/images/run_tails.png" alt="-"/>
+			<img src="/images/run_knux.png" alt="-"/>
+		</div>
+
+		<div style="position:relative; background-color:#0000C0; height:32px; z-index:16384">
+			<span style="position:absolute; left:50%; top:10px; margin: 0 0 0 -92px;">
+				<img src="/images/header.png" alt="RECORDS.SRB2.org"/>
+			</span>
+<!-- *** GENERATED HEADER BEGINS HERE *** -->
+{HEADER_BEGIN}
+<!-- *** GENERATED HEADER ENDS HERE   *** -->
+
+		</div>
+	</div>
+
+
+
+	<!-- Content holder -->
+	<div style="position:absolute; top:126px; width:100%; z-index:1;">
+
+<!-- *** GENERATED CONTENT BEGINS HERE *** -->
+{CONTENT_BEGIN}
+<!-- *** GENERATED CONTENT ENDS HERE   *** -->
+
+		<!-- Contentless div to ensure all content is possible to see on screen -->
+		<div style="height:24px"></div>
+	</div>
+	
+
+
+	<!-- Footer (static position) -->
+	<div style="position:fixed; bottom:0px; background-color:#0000BB; width:100%; height:20px; z-index:16382; min-width:1100px;">
+		<div style="position:absolute; left: 8px; text-align:left;">
+			Copyright &copy; 2014&ndash;2018 Sonic Team Junior. &nbsp;
+			<a href="http://srb2.org/">Main Site</a> -
+			<a href="http://mb.srb2.org/">Boards</a> -
+			<a href="http://wiki.srb2.org/">Wiki</a>
+		</div>
+		<div style="position:absolute; right: 8px; text-align:right;">
+<!-- *** MYSQL DEBUGGING BEGINS HERE *** -->
+			{MYSQL_BEGIN}
+<!-- *** MYSQL DEBUGGING ENDS HERE   *** -->
+		</div>
+	</div>
+</div>
+</body>
+</html>

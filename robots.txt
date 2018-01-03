@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /submit.php
+Disallow: /report.php
+Disallow: /login.php
+Disallow: /download.php
+Disallow: /template.html
+Disallow: /cgi-bin/
