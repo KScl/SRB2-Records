@@ -1,4 +1,11 @@
 <?php
+// !!! NOTE !!!
+// Remove this when switching away from the now-deprecated mysql class.
+// (AKA, when the vBulletin dependency is dropped.)
+$error_level = error_reporting();
+error_reporting($error_level & ~E_DEPRECATED);
+// !!! NOTE !!!
+
 class mysql {
 	// well isn't this fun
 	// a static 'class' now, yay.
